@@ -1,0 +1,6 @@
+config:
+  aws:region: us-west-2
+  pulumi:template: static-website-aws-python
+  static-website-aws-python-3:errorDocument: error.html
+  static-website-aws-python-3:indexDocument: index.html
+  static-website-aws-python-3:path: ./www
